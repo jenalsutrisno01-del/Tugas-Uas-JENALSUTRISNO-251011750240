@@ -1,0 +1,71 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+
+header { 
+    background-color: #2b00c9; 
+    text-align: center; 
+    padding: 20px; 
+    border-bottom: 5px solid #2b00c9; 
+} 
+ 
+.logo-bulat { 
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50%;  
+    object-fit: cover; 
+} 
+ 
+nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+} 
+ 
+nav ul li { 
+    display: inline; 
+    margin: 0 10px; 
+} 
+ 
+nav ul li a { 
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+} 
+nav ul li a:hover { background-color: #000000; border-radius: 10px; }
+ 
+
+main { padding: 15px; max-width: 750px; margin: 15px auto; background: #244cfd; box-shadow: 0 0 10px rgba(255, 255, 255, 0.74); } 
+ 
+.kotak-login { 
+    width: 300px; 
+    margin: 0 auto;  
+    text-align: center; 
+    border: 1px solid #999; 
+    padding: 20px; 
+    background-color: #fafafa; 
+} 
+ 
+table td {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px; 
+}
+
+
+table th {
+    background-color: #2b00ff; 
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer { 
+    text-align: center; 
+    background-color: #333; 
+    color: white; 
+    padding: 5px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
