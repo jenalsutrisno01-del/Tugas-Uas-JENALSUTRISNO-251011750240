@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Transaksi - Perpustakaan</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body background="bag.jpg"> 
+ 
+    <header> 
+        <img src="logo.jpg" alt="Logo" class="logo-bulat"> 
+        <h2>Perpustakaan Universitas Pamulang</h2>
+        <marquee behavior="scroll" direction="left" scrollamount="6" style="color: #ffffff; font-family: Arial, Helvetica, sans-serif, sans-serif; padding: 8px 0; font-size: 14px;">
+    Selamat datang di Perpustakaan Universitas Pamulang. Silakan gunakan kotak pencarian untuk menemukan koleksi buku dan jurnal terbaru. Selamat datang di Perpustakaan UNPAM. Jam Layanan: Senin - Jumat (08.00 - 16.00 WIB) | Sabtu (08.00 - 12.00 WIB) Info Perpustakaan: Harap kembalikan buku tepat waktu untuk menghindari denda keterlambatan. Cek status peminjaman di akun Anda
+</marquee>
+        <nav> 
+            <ul> 
+                <li><a href="login.html">Login</a></li>  
+                <li><a href="index.html">Beranda</a></li> 
+                <li><a href="transaksi.html">Transaksi</a></li> 
+                <li><a href="profil.html">Tentang</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <main style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 8px;"> 
+        <h2>Form Transaksi Buku</h2> 
+         
+        <form id="formKu"> 
+            Judul Buku: <input type="text" id="judul"><br><br> 
+            Nama Peminjam: <input type="text" id="peminjam"><br><br> 
+            Jenis Transaksi:  
+            <select id="kategori"> 
+                <option value="">Pilih</option> 
+                <option value="Pinjam">Peminjaman</option> 
+                <option value="Kembali">Pengembalian</option> 
+            </select><br><br> 
+             
+            <button type="button" onclick="cekForm()">Simpan</button> 
+        </form> 
+ 
+        <br><a href="daftar-transaksi.html">Daftar Transaksi</a><br><br> 
+ 
+
+</body> 
+</html>
